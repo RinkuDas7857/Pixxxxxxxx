@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storybook Tests MultiSelect Default 1`] = `
+exports[`Storybook Tests MultiSelect Basic 1`] = `
 .c1 {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -123,7 +123,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
   data-dark={false}
 >
   <div
-    aria-label=""
+    aria-label="label"
     className="c0"
     data-testid="SelectGroup"
   >
@@ -136,7 +136,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
         checked={true}
         className="c2"
         disabled={false}
-        name=""
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢1"
@@ -153,8 +153,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        1
+        選択肢1
       </div>
     </label>
     <label
@@ -166,7 +165,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name=""
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢2"
@@ -183,8 +182,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        2
+        選択肢2
       </div>
     </label>
     <label
@@ -196,7 +194,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
         checked={true}
         className="c2"
         disabled={false}
-        name=""
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢3"
@@ -213,8 +211,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        3
+        選択肢3
       </div>
     </label>
     <label
@@ -226,7 +223,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name=""
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢4"
@@ -243,8 +240,7 @@ exports[`Storybook Tests MultiSelect Default 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        4
+        選択肢4
       </div>
     </label>
   </div>
@@ -379,7 +375,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
   data-dark={false}
 >
   <div
-    aria-label=""
+    aria-label="label"
     className="c0"
     data-testid="SelectGroup"
   >
@@ -392,7 +388,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢1"
@@ -409,8 +405,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        1
+        選択肢1
       </div>
     </label>
     <label
@@ -422,7 +417,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢2"
@@ -439,8 +434,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        2
+        選択肢2
       </div>
     </label>
     <label
@@ -452,7 +446,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢3"
@@ -469,8 +463,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        3
+        選択肢3
       </div>
     </label>
     <label
@@ -482,7 +475,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢4"
@@ -499,8 +492,7 @@ exports[`Storybook Tests MultiSelect Invalid 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        4
+        選択肢4
       </div>
     </label>
   </div>
@@ -634,7 +626,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
   data-dark={false}
 >
   <div
-    aria-label=""
+    aria-label="label"
     className="c0"
     data-testid="SelectGroup"
   >
@@ -647,7 +639,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢1"
@@ -664,8 +656,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        1
+        選択肢1
       </div>
     </label>
     <label
@@ -677,7 +668,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢2"
@@ -694,8 +685,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        2
+        選択肢2
       </div>
     </label>
     <label
@@ -707,7 +697,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢3"
@@ -724,8 +714,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        3
+        選択肢3
       </div>
     </label>
     <label
@@ -737,7 +726,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name="name"
         onChange={[Function]}
         type="checkbox"
         value="選択肢4"
@@ -754,8 +743,7 @@ exports[`Storybook Tests MultiSelect Overlay 1`] = `
       <div
         className="c4"
       >
-        選択肢
-        4
+        選択肢4
       </div>
     </label>
   </div>
@@ -898,7 +886,7 @@ exports[`Storybook Tests MultiSelect Playground 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name=""
         onChange={[Function]}
         type="checkbox"
         value="選択肢1"
@@ -928,7 +916,7 @@ exports[`Storybook Tests MultiSelect Playground 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name=""
         onChange={[Function]}
         type="checkbox"
         value="選択肢2"
@@ -958,7 +946,7 @@ exports[`Storybook Tests MultiSelect Playground 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name=""
         onChange={[Function]}
         type="checkbox"
         value="選択肢3"
@@ -988,7 +976,7 @@ exports[`Storybook Tests MultiSelect Playground 1`] = `
         checked={false}
         className="c2"
         disabled={false}
-        name="defaultName"
+        name=""
         onChange={[Function]}
         type="checkbox"
         value="選択肢4"
