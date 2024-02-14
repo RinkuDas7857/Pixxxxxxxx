@@ -10,7 +10,7 @@ const config: TestRunnerConfig = {
     const image = await page.screenshot()
     expect(image).toMatchImageSnapshot({
       customSnapshotIdentifier: context.id,
-      failureThreshold: 0.001,
+      customDiffDir: `${process.cwd()}/__diff_output__`,
     })
   },
   tags: {
