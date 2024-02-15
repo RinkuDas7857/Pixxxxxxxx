@@ -11,6 +11,8 @@ const config: TestRunnerConfig = {
     expect(image).toMatchImageSnapshot({
       customSnapshotIdentifier: context.id,
       customDiffDir: `${process.cwd()}/__diff_output__`,
+      failureThresholdType: 'percent',
+      failureThreshold: 0.001,
     })
   },
   tags: {

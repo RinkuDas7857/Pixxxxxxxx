@@ -63,6 +63,20 @@ jobs:
             "npx http-server storybook-static --port 6006 --silent" \
             "npx wait-on tcp:127.0.0.1:6006 && yarn test-storybook"
 
+      - name: Check __diff_output__ existence
+        id: check_diff_output_dir
+        if: ${{ always() }}
+        uses: andstor/file-existence-action@v1
+        with:
+          files: '__diff_output__/'
+
+      - name: Archive image snapshot diffs
+        uses: actions/upload-artifact@v4
+        if: steps.check_diff_output_dir.outputs.files_exists == 'true' && ${{ always() }}
+        with:
+          name: upload_diff_output
+          path: __diff_output__/
+
   lint:
     runs-on: ubuntu-latest
     steps:
